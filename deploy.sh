@@ -11,10 +11,10 @@ ASSETSDIR="$BASEDIR/dist"
 # make folder and copy files
 mkdir "$ASSETSDIR"
 
-cp "index.html" "$ASSETSDIR"
-cp "bower.json" "$ASSETSDIR"
-cp "img" "$ASSETSDIR"
-cp "lib" "$ASSETSDIR"
+cp "$BASEDIR/index.html" "$ASSETSDIR"
+cp "$BASEDIR/bower.json" "$ASSETSDIR"
+cp  -R "$BASEDIR/img" "$ASSETSDIR"
+cp  -R "$BASEDIR/lib" "$ASSETSDIR"
 
 # Create a new Git repo in dist folder
 cd "$ASSETSDIR"
