@@ -8,25 +8,29 @@
 |▒▒| |▒▒| |▒▒| |▒▒| |▒▒| |__| |__|\__,_|\__,_|_/___|  Make it interesting, ...
 
 ```      
-# Media [![Build Status](https://travis-ci.org/ibuildio/media.svg?branch=master)](https://travis-ci.org/ibuildio/media)
-
+ [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
+[![Build Status](https://travis-ci.org/websemantics/audiz.svg?branch=master)](https://travis-ci.org/websemantics/audiz)
 
 > Upload an audio file and an optional image and get back a video with audio visualization to share on your favorite social networks.
 
-Click for [Demo](http://websemantics.github.io/audiz)
+To use Audiz, clieck  [here](http://websemantics.github.io/audiz)
 
 
 ### Install
 
-1- Clone and install Bower packages
+1- Clone this project
 
 ```
 git clone https://github.com/websemantics/audiz
+```
 
+2- Install Bower packages
+
+```
 Bower install
 ```
 
-2- View `index.html` on your browser
+3- View `index.html` on your browser
 
 
 ### Resources
