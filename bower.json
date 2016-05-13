@@ -1,18 +1,28 @@
 {
   "name": "Audiz",
+  "main": "audiz.js",
   "version": "0.1.0",
   "homepage": "https://github.com/websemantics/audiz",
   "authors": [
     "Adnan M.Sagar, PhD. <adnan@websemantics.ca>"
   ],
+  "description": "Make your audio files shareable on your favorite social networks.",
+  "keywords": [
+    "audio",
+    "visualizer",
+    "svg",
+    "video"
+  ],
   "license": "MIT",
   "ignore": [
     "**/.*",
     "node_modules",
-    "src/semantic"
+    "demo/lib",
+    "test",
+    "tests"
   ],
-  "dependencies": {
-    "semantic" : "*",
-    "less" : "*"
+  "devDependencies": {
+    "semantic-ui": "*",
+    "d3": "*"
   }
 }

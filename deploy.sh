@@ -1,24 +1,14 @@
 #!/usr/bin/env bash
-# This bash file will deploy the dist folder to the project gh-page
+# This bash file will deploy the demo folder to the project gh-page
 set -e
 
 # Base directory for this entire project
 BASEDIR=$(cd $(dirname $0) && pwd)
 
-# Destination directory for built code
-ASSETSDIR="$BASEDIR/dist"
-
-# make folder and copy files
-mkdir "$ASSETSDIR"
-
-cp "$BASEDIR/index.html" "$ASSETSDIR"
-cp "$BASEDIR/bower.json" "$ASSETSDIR"
-cp  -R "$BASEDIR/img" "$ASSETSDIR"
-cp  -R "$BASEDIR/lib" "$ASSETSDIR"
-
-# Create a new Git repo in dist folder
-cd "$ASSETSDIR"
 bower install
+
+# Create a new Git repo in demo folder
+cd "$BASEDIR/demo"
 git init
 
 # Set user details

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300">
+  <rect x="0" y="0" rx="25" ry="25" width="300" height="300" fill="#7f8c8d"/>
+  <g  transform="scale(0.9) translate(15)">
+    <path fill="#fff" fill-opacity=".7" opacity=".6" d="M51.4 94.8h17.2v166.5H51.4zM77.2 140.2h17v79h-17zM103 81.8h17v169.8h-17zM25.7 120.7H43v88.7H25.6zM0 150h17V193H0zM128.6 68.8h17v205.5h-17zM205.7 65.6h17v195.7h-17zM231.4 72h17.2v179.6h-17.2zM257 133.7h17.3V229H257zM180 65.6h17V284h-17zM154.3 43h17v215h-17zM283 153.2h17V190h-17z"/>
+    <path fill="#fff" fill-opacity=".9" opacity=".6" d="M51.4 127.2h17.2v85.5H51.4zM77.2 160.6h17v31h-17zM103 135.2h17V203h-17zM25.7 147H43V194H25.6zM0 164.3h17v22.3H0zM128.6 122.2h17v103.5h-17zM205.7 119h17v93.7h-17zM231.4 125.5h17.2V203h-17.2zM257 160h17.3v38.3H257zM180 119h17v116.4h-17zM154.3 96.3h17v113h-17zM283 170.6h17v12.7h-17z"/>
+  </g>
+</svg>
